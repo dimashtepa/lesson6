@@ -1,0 +1,168 @@
+@import "null.css"; 
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+
+@font-face {
+    font-family: 'Pacifico';
+    src:url(../fonts/Pacifico-Regular.woff2) format('woff2'),
+        url(../fonts/Pacifico-Regular.woff) format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+body{
+    line-height: 1.5;
+}
+header{
+    margin: 0 auto;
+    font-family: 'Pacifico', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+h1{
+    text-align: center;
+    color: rgb(64, 141, 141);
+    font-size: 40px;
+    text-shadow: 2px 2px 2px rgb(80, 172, 34);
+    margin-bottom: 20px;
+}
+.list{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 20px;
+    outline: 10px solid rgb(21, 157, 187);
+    box-shadow: inset 5px 5px 100px rgb(22, 172, 47), inset -5px -5px 100px rgb(22, 172, 47);
+    opacity: 0.8;
+}
+h2{
+    padding-bottom: 10px;
+    text-decoration: underline;
+    color: rgb(73, 73, 235);
+    font-size: 30px;
+}
+.list a{
+    font-family: "Caveat", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: blueviolet;
+}
+
+.wrapper{
+    overflow: visible;
+    min-height: 100%;
+    border: hidden;
+    box-shadow:inset 5px 5px 300px rgb(214, 255, 66), inset -5px -5px 300px rgb(66, 255, 98);
+}
+.prewrapper {
+    overflow: hidden;
+    border: 15px double rgb(215, 238, 8);
+    border-radius: 40px;
+    width: 1075px;
+    margin: 0 auto;
+    box-shadow: 10px 10px 10px rgb(22, 136, 162);
+}
+.main {
+}
+.first img{
+    margin-top: 10px;
+    width: 400px;
+    border-radius: 50%;
+    border: hidden;
+    box-shadow: 10px 10px 10px rgb(16, 221, 95), 15px 10px 10px rgb(247, 1, 177);
+}
+.overone {
+    outline: 10px double rgb(108, 19, 197);
+    box-shadow: 25px -25px 10px rgb(13, 145, 206);
+    display: inline-block;
+    margin: 50px 0 0 50px; 
+    max-height: 400px;
+    width: 500px;
+    overflow: scroll;
+}
+.overone h2{
+    padding: 10px;
+    font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: blueviolet;
+}
+.overone p{
+    font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    padding: 10px;
+}
+.overone li{
+    font-family: "Source Serif 4", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-decoration: line-through;
+    padding-left: 10px;
+    font-size: 24px;
+    color: rgb(34, 111, 111);
+} 
+.one-point-one{
+    overflow: hidden;
+    height: 300px;
+    width:300px;
+    border-radius: 50%;
+}
+.one-point-two {
+    border-top: 5px dotted rgb(145, 197, 2);
+}
+.one-point-three {
+    font-family: Caveat;
+    font-weight: 400;
+    border-bottom: 10px dotted rgb(5, 255, 59);
+}
+.second {
+    font-family: "Pacifico", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.second img{
+    width: 500px;
+    border-radius:0% 100% 0% 100% / 50% 50% 50% 50% ;
+}
+.two {
+    padding-bottom: 10px;
+    border-bottom: 10px double rgb(5, 255, 59);
+    border-right: 10px dashed rgb(5, 255, 59);
+}
+.two-point-one {
+    border-bottom: 10px dotted rgb(5, 255, 59);
+    border-left: 10px solid rgb(5, 255, 59);
+    font-family: "Playfair Display";
+    font-weight: 400;
+}
+.two-point-one h2{
+    font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.two-point-two{
+    margin: 0 auto;
+    overflow: hidden;
+    width: 50%;
+}
+.change{
+    border: 2px solid #000;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(253, 131, 0),inset 5px 5px 10px rgb(206, 108, 2);
+}
+.change p{
+    opacity: 0.5;
+}
+.two-point-three {
+    font-family: "Comfortaa", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    overflow: hidden;
+    border: 1px solid rgb(148, 32, 32);
+    border-radius: 100px;
+}
+.two-point-three h2{
+    font-family: "Comfortaa", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+span{
+    visibility: hidden;
+}
